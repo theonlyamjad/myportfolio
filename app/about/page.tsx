@@ -3,7 +3,7 @@ import Link from "next/link";
 import { BsArrowLeft } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
 
-export default function page (){
+export default function AboutPage (){
   return (
     <div className="min-h-screen flex items-center justify-center">
       <main className="max-w-xl m-3 md:m-8 z-50 space-y-8 border border-gray-700/50 rounded-xl p-5 sm:p-10 backdrop-blur-xl bg-black/80">
@@ -97,5 +97,5 @@ export default function page (){
       </main>
     </div>
   );
-};
+}
 
