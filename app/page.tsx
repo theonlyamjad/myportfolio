@@ -10,14 +10,16 @@ export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
       <main className="w-full max-w-2xl md:max-w-3xl space-y-10 border border-gray-700/50 rounded-xl p-6 sm:p-10 backdrop-blur-xl bg-black/80">
-
         <div className="flex sm:flex-row sm:justify-between sm:items-center flex-col-reverse items-start gap-4">
           <div className="flex items-center gap-3">
             <BiBuilding className="w-5 h-5" />
             <h3 className="text-gray-400">Agadir, Morocco</h3>
           </div>
 
-          <Button variant="ghost" className="hover:bg-black/50 duration-300 hover:text-white rounded-full">
+          <Button
+            variant="ghost"
+            className="hover:bg-black/50 duration-300 hover:text-white rounded-full"
+          >
             <div className="relative flex text-sm gap-1 items-center justify-center h-3 w-3 rounded-full">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500"></span>
               <span className="inline-flex rounded-full h-3 w-3 bg-green-500"></span>
@@ -32,9 +34,9 @@ export default function Home() {
             Full Stack Web Developer
           </h2>
           <p className="tracking-tight text-neutral-300 mt-4 leading-relaxed text-left">
-            I'm a passionate full-stack developer based in Agadir, Morocco. With solid training in software development and several hands-on internships, I specialize in building responsive, modern web applications using React, Next.js, and Laravel.
+            I&apos;m a passionate full-stack developer based in Agadir, Morocco. With solid training in software development and several hands-on internships, I specialize in building responsive, modern web applications using React, Next.js, and Laravel.
             <br /><br />
-            I enjoy developing complete solutions from scratch, frontend to backend, and constantly push myself to learn and improve. Right now, I'm deepening my skills in full-stack JavaScript and working on real-world projects that solve real problems.
+            I enjoy developing complete solutions from scratch, frontend to backend, and constantly push myself to learn and improve. Right now, I&apos;m deepening my skills in full-stack JavaScript and working on real-world projects that solve real problems.
             <br /><br />
             <Link
               href="/contact"
@@ -56,7 +58,9 @@ export default function Home() {
           </div>
 
           <div className="mt-6">
-            <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-400 to-blue-400">Check out my socials</h3>
+            <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-400 to-blue-400">
+              Check out my socials
+            </h3>
 
             <div className="flex flex-col gap-6 mt-4">
               <Dock iconMagnification={80} iconDistance={120} className="border bg-black/30 border-gray-700/40 rounded-xl p-4">

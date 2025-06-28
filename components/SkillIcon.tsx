@@ -2,6 +2,7 @@
 import React, { ReactNode } from "react";
 import { motion } from "framer-motion";
 import { Icon } from "@iconify/react";
+import Image from "next/image";
 
 export const SkillIcon = ({ name }: { name: string }) => {
   const icons: Record<string, ReactNode> = {
@@ -30,22 +31,46 @@ export const SkillIcon = ({ name }: { name: string }) => {
     "cPanel": <Icon icon="logos:cpanel" className="w-6 h-6" />,
     "WordPress": <Icon icon="logos:wordpress-icon" className="w-6 h-6" />,
 
-    //Social Media
+    // Social Media
     "LinkedIn": <Icon icon="mdi:linkedin" className="w-6 h-6" />,
     "GitHub": <Icon icon="mdi:github" className="w-6 h-6" />,
 
-    // Languages
+    // Languages (replaced <img> with <Image>)
     "Arabic (Native)": (
-      <img src="/skills/languages/arabic.svg" alt="Arabic" className="w-6 h-6 object-cover rounded-sm" />
+      <Image
+        src="/skills/languages/arabic.svg"
+        alt="Arabic"
+        width={24}
+        height={24}
+        className="object-cover rounded-sm"
+      />
     ),
     "English (C1)": (
-      <img src="/skills/languages/english.svg" alt="English" className="w-6 h-6 object-cover rounded-sm" />
+      <Image
+        src="/skills/languages/english.svg"
+        alt="English"
+        width={24}
+        height={24}
+        className="object-cover rounded-sm"
+      />
     ),
     "French (B1-B2)": (
-      <img src="/skills/languages/french.svg" alt="French" className="w-6 h-6 object-cover rounded-sm" />
+      <Image
+        src="/skills/languages/french.svg"
+        alt="French"
+        width={24}
+        height={24}
+        className="object-cover rounded-sm"
+      />
     ),
     "German (B2)": (
-      <img src="/skills/languages/german.svg" alt="German" className="w-6 h-6 object-cover rounded-sm" />
+      <Image
+        src="/skills/languages/german.svg"
+        alt="German"
+        width={24}
+        height={24}
+        className="object-cover rounded-sm"
+      />
     ),
   };
 
