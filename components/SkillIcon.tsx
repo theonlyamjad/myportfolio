@@ -10,7 +10,7 @@ export const SkillIcon = ({ name }: { name: string }) => {
     "HTML": <Icon icon="logos:html-5" className="w-6 h-6" />,
     "CSS": <Icon icon="logos:css-3" className="w-6 h-6" />,
     "JavaScript": <Icon icon="logos:javascript" className="w-6 h-6" />,
-    "TypeScript": <Icon icon="logos:typescript" className="w-6 h-6" />,
+    "TypeScript": <Icon icon="devicon:typescript" className="w-6 h-6" />,
     "React.js": <Icon icon="logos:react" className="w-6 h-6" />,
     "Next.js": <Icon icon="logos:nextjs-icon" className="w-6 h-6" />,
     "Tailwind CSS": <Icon icon="logos:tailwindcss-icon" className="w-6 h-6" />,
@@ -28,7 +28,7 @@ export const SkillIcon = ({ name }: { name: string }) => {
 
     // Tools
     "Git & GitHub": <Icon icon="logos:git-icon" className="w-6 h-6" />,
-    "Vercel": <Icon icon="logos:vercel-icon" className="w-6 h-6" />,
+    "Vercel": <Icon icon="ri:vercel-fill" className="w-6 h-6" />,
     "PhpMyAdmin": <Icon icon="logos:mysql-icon" className="w-6 h-6" />,
     "cPanel": <Icon icon="logos:cpanel" className="w-6 h-6" />,
     "WordPress": <Icon icon="logos:wordpress-icon" className="w-6 h-6" />,
