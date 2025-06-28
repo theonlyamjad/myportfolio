@@ -15,6 +15,7 @@ export const SkillIcon = ({ name }: { name: string }) => {
     "Tailwind CSS": <Icon icon="logos:tailwindcss-icon" className="w-6 h-6" />,
     "Bootstrap": <Icon icon="logos:bootstrap" className="w-6 h-6" />,
     "Shadcn UI": <Icon icon="simple-icons:shadcnui" className="w-6 h-6" />,
+    "Magicui": <Icon icon="simple-icons:magicui" className="w-6 h-6"/>,
 
     // Backend
     "PHP": <Icon icon="logos:php" className="w-6 h-6" />,
