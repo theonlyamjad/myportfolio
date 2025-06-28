@@ -1,0 +1,47 @@
+{
+  "categories": [
+    {
+      "name": "Frontend Development",
+      "skills": [
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "JavaScript" },
+        { "name": "React.js" },
+        { "name": "Next.js" },
+        { "name": "Tailwind CSS" },
+        { "name": "Bootstrap" },
+        { "name": "Shadcn UI" }
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "skills": [
+        { "name": "PHP" },
+        { "name": "Laravel" },
+        { "name": "SQL" },
+        { "name": "VB.Net" },
+        { "name": "Java (OOP)" },
+        { "name": "C#" },
+        { "name": "C++" }
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "skills": [
+        { "name": "Git & GitHub" },
+        { "name": "PhpMyAdmin" },
+        { "name": "cPanel" },
+        { "name": "WordPress" }
+      ]
+    },
+    {
+      "name": "Languages",
+      "skills": [
+        { "name": "Arabic (Native)" },
+        { "name": "English (C1)" },
+        { "name": "French (B1-B2)" },
+        { "name": "German (B2)" }
+      ]
+    }
+  ]
+}

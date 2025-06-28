@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Contact Management App",
+      "description": "A Laravel-based contact manager with CRUD operations, advanced filtering (age, city, gender, activity), CSV import/export, and PDF generation. Designed with a modern landing page and secure authentication system.",
+      "image": "/contactapp.jpg",
+      "tags": ["Laravel", "PHP", "MySQL", "Tailwind CSS"]
+    },
+    {
+      "id": 2,
+      "title": "My Portfolio Website",
+      "description": "A modern, animated portfolio built with Next.js, featuring dynamic sections, smooth page transitions, and a dark theme toggle to showcase projects and skills.",
+      "image": "/myportfolio.jpg",
+      "tags": ["Next.js", "Tailwind CSS", "Framer Motion", "shadcn/ui"]
+    },
+    {
+      "id": 3,
+      "title": "Perfekt Deutsch Akademie",
+      "description": "A professional, animated website for a German language academy built with Next.js, Tailwind, Framer Motion, and CMS integration. Fully responsive with clean UI, footer navigation, and custom domain setup.",
+      "image": "/pda.jpg",
+      "tags": ["Next.js", "Tailwind CSS", "Framer Motion", "shadcnui", "Magic UI"]
+    }
+  ]
+}
