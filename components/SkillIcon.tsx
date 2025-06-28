@@ -28,6 +28,7 @@ export const SkillIcon = ({ name }: { name: string }) => {
 
     // Tools
     "Git & GitHub": <Icon icon="logos:git-icon" className="w-6 h-6" />,
+    "Vercel": <Icon icon="logos:vercel-icon" className="w-6 h-6" />,
     "PhpMyAdmin": <Icon icon="logos:mysql-icon" className="w-6 h-6" />,
     "cPanel": <Icon icon="logos:cpanel" className="w-6 h-6" />,
     "WordPress": <Icon icon="logos:wordpress-icon" className="w-6 h-6" />,
