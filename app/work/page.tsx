@@ -76,7 +76,7 @@ export default function page () {
                     )}
                     {project.demo && (
                       <Button
-                        variant="ghost"
+                        variant="outline"
                         className="flex-1 text-white bg-black backdrop-blur-sm border-white transition-colors duration-200 ease-linear"
                         asChild
                       >
