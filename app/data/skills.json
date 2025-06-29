@@ -6,6 +6,7 @@
         { "name": "HTML" },
         { "name": "CSS" },
         { "name": "JavaScript" },
+        { "name": "TypeScript" },
         { "name": "React.js" },
         { "name": "Next.js" },
         { "name": "Tailwind CSS" },
