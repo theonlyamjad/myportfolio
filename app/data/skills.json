@@ -30,6 +30,7 @@
       "name": "Tools & Platforms",
       "skills": [
         { "name": "Git & GitHub" },
+        { "name": "Vercel" },
         { "name": "PhpMyAdmin" },
         { "name": "cPanel" },
         { "name": "WordPress" }
