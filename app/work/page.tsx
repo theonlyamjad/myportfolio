@@ -62,7 +62,7 @@ export default function page () {
                     {project.code && (
                       <Button
                         variant="outline"
-                        className="flex-1 text-white bg-black backdrop-blur-sm border-neutral-800/70 transition-colors duration-200 ease-linear"
+                        className="flex-1 text-white bg-black backdrop-blur-sm border-white transition-colors duration-200 ease-linear"
                         asChild
                       >
                         <a
@@ -77,7 +77,7 @@ export default function page () {
                     {project.demo && (
                       <Button
                         variant="ghost"
-                        className="flex-1 text-white bg-black backdrop-blur-sm border-neutral-800/70 transition-colors duration-200 ease-linear"
+                        className="flex-1 text-white bg-black backdrop-blur-sm border-white transition-colors duration-200 ease-linear"
                         asChild
                       >
                         <a
